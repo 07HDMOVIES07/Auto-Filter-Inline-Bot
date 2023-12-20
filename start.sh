@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/theriturajps/Auto-Filter-Inline-Bot.git /Auto-Filter-Inline-Bot
+  git clone https://github.com/07HDMOVIES07/Auto-Filter-Inline-Bot.git /Auto-Filter-Inline-Bot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Auto-Filter-Inline-Bot
